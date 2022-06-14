@@ -1,10 +1,10 @@
 @media screen and (max-width: 768px) {
   /*menubar*/
-#header {
-  justify-content: space-around;
+#menu {
+  display: none;
 }
 
-  #menu {
+#logo {
   display: none;
 }
 
@@ -13,10 +13,11 @@
 }
 
 #menu-res {
-  display: block;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
-  
-
 
   /*banner*/
   #banner-container {
@@ -45,4 +46,27 @@
     background-color: #9a9a9a;
     font-size: 24px;
   }
+
+  #info-main-container {
+    display: none;
+  }
+
+  #info-sub-container {
+    width: 100%;
+  }
+
+  .sub-img {
+    display: none;
+  }
+
+  .sub-img-res {
+    display: block;
+    width: 100%;
+  }
+  
+  .sub-text {
+    width: 100%;
+  }
+  
 }
+
