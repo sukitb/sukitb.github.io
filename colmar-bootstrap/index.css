@@ -1,0 +1,17 @@
+* {
+  margin: 0 auto;
+}
+
+nav {
+  height: 64px;
+}
+
+ืnav a {
+  font-size: 32px;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #4a4a4a;
+}
