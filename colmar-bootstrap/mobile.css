@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+    /* navbar */
+
+    #navbar-desktop {
+        display: none;
+    }
+    #navbar-mobile {
+        display: block;
+    }
+    /* banner */
+    #banner-text {
+        padding: 0px 16px 32px 16px !important;
+    }
+
+    #banner-img {
+        padding: 0px;
+    }
+
+    #banner-text h2 {
+        margin: 32px 0px;
+    }
+
+    #banner-text p {
+        margin-bottom: 24px;
+    }
+
+    /* information  */
+
+    #info-sub {
+        width: 100%;
+    }
+
+    .info-card {
+        flex-direction: column;
+    }
+
+    .info-sub-img {
+        width: 100%;
+      }
+
+    .info-sub-img img {
+        width: 100%
+    }
+
+    .info-sub-text {
+        width: 100%;
+    }
+
+    /* course */
+    #course-card-container {
+        padding: 0px 16px;
+    }
+
+    #course {
+        background-color: white !important;
+    }
+
+    #course h2 {
+        margin: 32px auto 16px auto;
+      }
+
+    /* thesis */
+    
+    #thesis-main {
+        display: none;
+    }
+
+    #thesis-sub {
+        display: none;
+    }
+
+    #thesis-mobile {
+        padding: 16px 0px 24px 0px;
+        
+    }
+
+    #thesis-mobile video {
+        width: 100%;
+    }
+
+    /* footer */
+
+    #term {
+        display: none;
+    }
+
+}

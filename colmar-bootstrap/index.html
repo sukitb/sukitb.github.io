@@ -7,234 +7,315 @@
   <link href="mobile.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-  <!--navbar-->
+  
   <header>
-    <div>
-      <nav class="nav align-content-center">
+    <!--navbar-->
+    <!-- navbar-desktop -->
+    <div class="container-lg p-0">
+      <div id="navbar-desktop">
+        <nav class="nav justify-content-between align-content-center">
           <a class="navbar-brand ms-4" href="#">
             <img src="assets/images/ic-logo.svg">
-            <strong>COLMAR</strong>ACADEMY
+            <span><strong>COLMAR</strong>ACADEMY</span>
           </a>
           <ul class="nav me-4">
-            <li class=""><a class="" href="#">On campus</a></li>
-            <li class=""><a class="" href="#">Online</a></li>
-            <li class=""><a class="" href="#">For companies</a></li>
-            <li class=""><a class="" href="#">Sign in</a></li>
+            <li><a href="#">On campus</a></li>
+            <li><a href="#">Online</a></li>
+            <li><a href="#">For companies</a></li>
+            <li><a href="#">Sign in</a></li>
           </ul>
-      </nav>
-    </div>
-
-
-
-    <!--
-    <div class="row">
-        <nav class="navbar ps-3 pe-3">
-
-          <div class="col">
-            <a class="navbar-brand">
-              <img src="assets\images\ic-logo.svg" alt="logo">
-              <span><strong>COLMAR</strong>ACADEMY</span>
-            </a>
-          </div>
-
-          <div class="col">
-            <div class="container">
-              <a class="nav-item text-dark text-decoration-none" href="#">On campus</a>
-              <a class="nav-item text-dark text-decoration-none" href="#">Online</a>
-              <a class="nav-item text-dark text-decoration-none" href="#">or companies</a>
-              <a class="nav-item text-dark text-decoration-none" href="#">Sign in</a>
-            </div>
-          </div>
         </nav>
       </div>
-    -->
-
-    <!--
-    <div id="menu-res">
-      <img src="assets\images\ic-logo.svg" alt="logo">
-      <a href="#"><img src="/colmar/assets/images/ic-on-campus.svg" alt=""></a>
-      <a href="#"><img src="/colmar/assets/images/ic-online.svg" alt=""></a>
-      <a href="#"><img src="/colmar/assets/images/ic-login.svg" alt=""></a>
-    </div>-->
+    </div>
+    <!-- navbar-mobile -->
+    <div class="container-lg p-0">
+      <div id="navbar-mobile">
+        <nav class="nav justify-content-center align-items-center">
+          <a class="mx-auto" href="#"><img src="/colmar-bootstrap/assets/images/ic-logo.svg" alt="logo"></a>
+          <a class="mx-auto" href="#"><img src="/colmar-bootstrap/assets/images/ic-on-campus.svg" alt=""></a>
+          <a class="mx-auto" href="#"><img src="/colmar-bootstrap/assets/images/ic-online.svg" alt=""></a>
+          <a class="mx-auto" href="#"><img src="/colmar-bootstrap/assets/images/ic-login.svg" alt=""></a>
+        </nav>
+      </div>
+    </div>
   </header>
-  <!--Banner-->
-  <div id="banner-container">
-    <img src="assets/images/banner.jpg"></img>
-    <div id="banner-text">
-      <h1>Learn something new everyday</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button>Start here</button>
-    </div>
-  </div>
 
-  <!--Information-->
-  <div id="info-container">
-    <!--left-->
-    <div id="info-main-container">
-      <img src="/colmar/assets/images/information-main.jpg" alt="information-main">
-      <h2>It's doesn't hurt to keep practicing</h2>
-      <p>"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non
-        accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique
-        ligula."</p>
-      <p>Emanuel, Sr Strategist at Hiring.com</p>
-    </div>
-    <!--right-->
-    <div id="info-sub-container">
-      <!--right 1-->
-      <div class="sub-card-1">
-        <div class="sub-img">
-          <img src="/colmar/assets/images/information-orientation.jpg" alt="information-orientation">
-        </div>
-        <div class="sub-img-res">
-          <img src="/colmar/assets/images/information-orientation-mobile.jpg">
-        </div>
-        <div class="sub-text">
-          <h3>Orientation date</h3>
-          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-          <a href="#">Read more</a>
-        </div>
-      </div>
-      <!--right 2-->
-      <div class="sub-card">
-        <div class="sub-img">
-          <img src="/colmar/assets/images/information-campus.jpg" alt="information-campus">
-        </div>
-        <div class="sub-img-res">
-          <img src="/colmar/assets/images/information-campus-mobile.jpg">
-        </div>
-        <div class="sub-text">
-          <h3>Our campus</h3>
-          <p>Find which campus is close by you</p>
-          <a href="#">Read more</a>
-        </div>
-      </div>
-      <!--right 3-->
-      <div class="sub-card">
-        <div class="sub-img">
-          <img src="/colmar/assets/images/information-guest-lecture.jpg" alt="information-guest-lecture">
-        </div>
-        <div class="sub-img-res">
-          <img src="/colmar/assets/images/information-guest-lecture-mobile.jpg">
-        </div>
-        <div class="sub-text">
-          <h3>Our guest lecture</h3>
-          <p>Join keynote with Oliver Sack about music in medical treatment</p>
-          <a href="#">Read more</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Start Learning-->
-  <div id="learn">
-    <div id="learn-head">
-      <h2>Start learning</h2>
-    </div>
-
-    <div id="learn-card-container">
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-software.jpg" alt="">
-        <h3>Software engineering</h3>
-        <p class="course">Course</p>
-        <p class="description">Web Development, Mobile Development, iOT, APIs</p>
-      </div>
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-computer-art.jpg" alt="">
-        <h3>Computer art</h3>
-        <p class="course">Course</p>
-        <p class="description">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-      </div>
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-design.jpg" alt="">
-        <h3>Design</h3>
-        <p class="course">Course</p>
-        <p class="description">User Experience Design, User Research, Visual Design</p>
-      </div>
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-data.jpg" alt="">
-        <h3>Data</h3>
-        <p class="course">Course</p>
-        <p class="description">Data Science, Big Data, SQL, Data Visualization</p>
-      </div>
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-business.jpg" alt="">
-        <h3>Business</h3>
-        <p class="course">Course</p>
-        <p class="description">Product Development, Business, Development, Startup</p>
-      </div>
-
-      <div class="learn-card">
-        <img src="/colmar/assets/images/course-marketing.jpg" alt="">
-        <h3>Marketing</h3>
-        <p class="course">Course</p>
-        <p class="description">Analytics, Content Marketing, Mobile Marketing</p>
-      </div>
-
-    </div>
-
-  </div>
-
-  <!--Thesis exhibit-->
-  <div id="thesis">
-    <div id="thesis-head">
-      <h2>Thesis exhibit</h2>
-    </div>
-    <div id="thesis-container">
-      <!--left-->
-      <div id="thesis-main-container">
-        <video controls>
-          <source src="/colmar/assets/videos/thesis.mp4" type="video/mp4">
-        </video>
-        <h2>Reimagine urban</h2>
-        <p>"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non
-          accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique
-          ligula."</p>
-      </div>
-      <!--right-->
-      <div id="thesis-sub-container">
-        <!--right 1-->
-        <div class="sub-card-1">
-          <div class="sub-img">
-            <img src="assets/images/thesis-fisma.jpg" alt="">
+  <main>
+    <!-- banner -->
+    <section>
+      <div class="text-bg-light container-lg">
+        <div class="row">
+          <div id="banner-img" class="col-md-7 ">
+            <img class="img-fluid" src="/colmar-bootstrap/assets/images/banner.jpg"></img>
           </div>
-          <div class="sub-text">
-            <h3>Fisma: Design and Prototype</h3>
-            <p>Designer showcase of new prototype produc</p>
+          <div id="banner-text" class="col-md-5 d-flex flex-column justify-content-center">
+            <h2 class="fs-1 fw-bold">Learn something new everyday</h2>
+            <p class="fw-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="d-grid">
+              <button class="btn btn-secondary">Start here</button>
+            </div>
           </div>
         </div>
-        <!--right 2-->
-        <div class="sub-card">
-          <div class="sub-img">
-            <img src="/colmar/assets/images/thesis-now-and-then.jpg" alt="information-campus">
+    </section>
+
+    <!-- information -->
+    <section>
+      <div class="container-lg">
+        <!-- infomation-main -->
+        <div class="row">
+          <div id="info-main" class="col-7 d-none d-md-block">
+            <img class="img-fluid" src="/colmar-bootstrap/assets/images/information-main.jpg">
+            <div class="">
+              <h2 class="fs-2 fw-bold">It's doesn't hurt to keep practicing</h2>
+              <p class="">"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat
+                neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor
+                consequat, tristique ligula."</p>
+              <span>Emanuel, Sr Strategist at Hiring.com</span>
+            </div>
           </div>
-          <div class="sub-text">
-            <h3>Now and then</h3>
-            <p>Research study about New York</p>
+          <!-- information-sub -->
+          <div id="info-sub" class="col-5 border-start">
+            <!-- info-card -->
+            <div class="d-flex align-items-center border-bottom info-card">
+              <div class="info-sub-img">
+                <img class="img-fluid d-none d-md-block" src="/colmar-bootstrap/assets/images/information-orientation.jpg">
+                <img class="d-md-none" src="/colmar-bootstrap/assets/images/information-orientation-mobile.jpg">
+              </div>
+              <div class="info-sub-text">
+                <h5>Orientation date</h5>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a class="text-decoration-none" href="#">Read more</a>
+              </div>
+            </div>
+            <!-- info-card -->
+            <div class="d-flex align-items-center border-bottom info-card">
+              <div class="info-sub-img">
+                <img class="img-fluid d-none d-md-block" src="/colmar-bootstrap/assets/images/information-campus.jpg">
+                <img class="img-fluid d-md-none" src="/colmar-bootstrap/assets/images/information-campus-mobile.jpg">
+              </div>
+              <div class="info-sub-text">
+                <h5>Our campus</h5>
+                <p>Find which campus is close by you</p>
+                <a class="text-decoration-none" href="#">Read more</a>
+              </div>
+            </div>
+            <!-- info-card -->
+            <div class="d-flex align-items-center border-bottom info-card">
+              <div class="info-sub-img">
+                <img class="img-fluid d-none d-md-block" src="/colmar-bootstrap/assets/images/information-guest-lecture.jpg">
+                <img class="img-fluid d-md-none" src="/colmar-bootstrap/assets/images/information-guest-lecture-mobile.jpg">
+              </div>
+              <div class="info-sub-text">
+                <h5>Our guest lecture</h5>
+                <p>Join keynote with Oliver Sack about music in medical treatment</p>
+                <a class="text-decoration-none" href="#">Read more</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!--Footer-->
+    <!-- course -->
+    <section>
+      <div id="course" class="text-bg-light container-lg">
+        <div class="row">
+          <h2 class="text-center">Start Learning</h2>
+        </div>
+
+
+        <div id="course-card-container">
+          <!-- row-1 -->
+          <div id="" class="row d-none d-md-flex">
+            <!-- software engineering -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-software.jpg">
+                <div class="card-body">
+                  <h5>Software engineering</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+              </div>
+            </div>
+            <!-- computer art -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-computer-art.jpg">
+                <div class="card-body">
+                  <h5>Computer art</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer
+                    Animation</p>
+                </div>
+              </div>
+            </div>
+            <!-- design -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-design.jpg">
+                <div class="card-body">
+                  <h5>Design</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">User Experience Design, User Research, Visual Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- row-2 -->
+          <div id="" class="row d-none d-md-flex">
+            <!-- data -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-data.jpg">
+                <div class="card-body">
+                  <h5>Data</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+              </div>
+            </div>
+            <!-- business -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-business.jpg">
+                <div class="card-body">
+                  <h5>Business</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">Product Development, Business, Development, Startup</p>
+                </div>
+              </div>
+            </div>
+            <!-- markering -->
+            <div class="course-card col-4">
+              <div class="card h-100">
+                <img src="/colmar-bootstrap/assets/images/course-marketing.jpg">
+                <div class="card-body">
+                  <h5>Marketing</h5>
+                  <p class="card-text text-uppercase">course</p>
+                  <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- mobile -->
+          <div id="course-mobile" class="row d-md-none d-grid">
+
+            <!-- software engineer -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Software engineering</h5>
+            </button>
+
+            <!-- computer art -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Computer art</h5>
+            </button>
+
+            <!-- design -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Design</h5>
+            </button>
+
+            <!-- data -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Data</h5>
+            </button>
+
+            <!-- business -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Business</h5>
+            </button>
+
+            <!-- marketing -->
+            <button type="button" class="btn btn-light text-start">
+              <h5>Marketing</h5>
+            </button>
+
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- thesis -->
+    <section>
+      <div id="thesis" class="container-lg">
+        <div class="row">
+          <h2 class="text-center">Thesis exhibit</h2>
+        </div>
+        <!-- thesis-main -->
+        <div class="row">
+          <div id="thesis-main" class="col-7 d-none d-md-block">
+            <video controls>
+              <source src="/colmar-bootstrap/assets/videos/thesis.mp4" type="video/mp4">
+            </video>
+            <div class="">
+              <h4 class="fw-bold">Reimagine urban</h4>
+              <p class="">"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec consequat
+                neque. Sed non
+                accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,
+                tristique
+                ligula."</p>
+            </div>
+          </div>
+          <!-- thesis-sub -->
+          <div id="thesis-sub" class="col-5">
+            <!-- thesis-card -->
+            <div class="d-flex align-items-center thesis-card">
+              <div class="info-sub-img">
+                <img class="img-fluid d-none d-md-block" src="/colmar-bootstrap/assets/images/thesis-fisma.jpg">
+              </div>
+              <div class="info-sub-text">
+                <h5>Fisma: Design and Prototype</h5>
+                <p>Designer showcase of new prototype produce</p>
+                <a class="text-decoration-none" href="#">Read more</a>
+              </div>
+            </div>
+            <!-- thesis-card -->
+            <div class="d-flex align-items-center thesis-card">
+              <div class="info-sub-img">
+                <img class="img-fluid d-none d-md-block" src="/colmar-bootstrap/assets/images/thesis-now-and-then.jpg">
+              </div>
+              <div class="info-sub-text">
+                <h5>Now and then</h5>
+                <p>Research study about New York</p>
+                <a class="text-decoration-none" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <!-- thesis mobile -->
+          <div id="thesis-mobile" class="row d-md-none">
+            <video controls>
+              <source src="/colmar-bootstrap/assets/videos/thesis.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+    </section>
+
+  </main>
+
   <footer>
-    <div id="copyright">
-      <span>© 2016 COLMAR ACADEMY. ALL RIGHTS RESERVED</span>
-    </div>
-    <div id="condition">
-      <a href="#">Terms</a>
-      <a href="#">Privacy</a>
+    <div id="footer" class="container-lg">
+      <div class="row">
+        <div class="col-md-8">
+          <span>© 2016 COLMAR ACADEMY. ALL RIGHTS RESERVED</span>
+        </div>
+        <div id="term" class="col-4 text-end">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
     </div>
   </footer>
+
+
 </body>
 
 </html>

@@ -1,17 +1,149 @@
-* {
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
   margin: 0 auto;
 }
 
-nav {
-  height: 64px;
+/* body */
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
 }
 
-ืnav a {
-  font-size: 32px;
+/* navbar */
+nav {
+  height: 64px;
 }
 
 nav a {
   margin-left: 16px;
   text-decoration: none;
   color: #4a4a4a;
+}
+
+#navbar-mobile {
+  display: none; /*disable navbar for mobile*/
+}
+
+
+/* banner */
+
+#banner-img {
+  padding: 32px 24px;
+}
+
+#banner-text {
+  padding: 0px;
+}
+
+/* information */
+
+#info-sub {
+  padding: 0px 0px;;
+}
+
+#info-main {
+  padding: 32px 24px;
+}
+
+#info-main h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+#info-main span {
+  font-size: small;
+}
+
+.info-card {
+  padding: 32px 16px;
+}
+
+.info-sub-img {
+  width: 35%;
+}
+
+.info-sub-text {
+  width: 65%;
+  padding: 16px;
+}
+
+.info-card:hover {
+  background-color: #d8d8d8;
+}
+
+
+/* course */
+
+#course-card-container {
+  padding: 32px 56px; 
+}
+
+.course-card {
+  padding: 0px 16px 0px 16px !important;
+  margin-bottom: 24px;
+}
+
+.card-body {
+  padding: 16px 16px 24px 16px !important;
+}
+
+.course-card p {
+  margin: 8px 0px;
+}
+
+#course h2 {
+  margin: 32px auto 0px auto;
+}
+
+#course-mobile h5 {
+  margin: 16px 16px 24px 16px;
+}
+
+#course-mobile button{
+  margin: 0px auto 8px auto;
+}
+
+/* thesis */
+
+#thesis-main video {
+  width: 100%;
+}
+
+#thesis-main {
+  padding: 0px 24px 32px 24px;
+}
+
+#thesis-main h4 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+#thesis h2 {
+  margin: 32px auto 32px auto;
+}
+
+#thesis-sub {
+  padding: 0px;
+}
+
+.thesis-card {
+  padding: 16px 16px;
+}
+
+.thesis-card:hover {
+  background-color: #d8d8d8;
+}
+
+#footer {
+  padding: 16px 24px;
+  font-size: small;
+  border-top: 1px solid #e6e8e8; 
+}
+
+footer a {
+  text-decoration: none;
+  color:#4a4a4a;
 }
